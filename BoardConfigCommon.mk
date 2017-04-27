@@ -107,6 +107,9 @@ TARGET_USERIMAGES_USE_EXT4 := true
 # SDClang
 TARGET_USE_SDCLANG := true
 
+# ROOT
+ DEFAULT_ROOT_METHOD := magisk
+
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += device/lge/g3-common/sepolicy
