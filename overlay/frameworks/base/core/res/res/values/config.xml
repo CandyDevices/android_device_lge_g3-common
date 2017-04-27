@@ -254,7 +254,7 @@
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
-    <integer name="config_deviceHardwareWakeKeys">64</integer>
+    <!--integer name="config_deviceHardwareWakeKeys">64</integer-->
 
     <!-- Indicate whether the SD card is accessible without removing the battery. -->
     <bool name="config_batterySdCardAccessibility">true</bool>
@@ -296,7 +296,7 @@
 
     <!-- Support in Surfaceflinger for blur layers.
          NOTE: This requires additional hardware-specific code. -->
-    <bool name="config_uiBlurEnabled">true</bool>
+    <!--bool name="config_uiBlurEnabled">true</bool-->
 
     <!-- Configuration to support SIM contact batch operation -->
     <bool name="config_sim_phonebook_batch_operation">false</bool>
