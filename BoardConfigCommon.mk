@@ -106,7 +106,7 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 TARGET_USERIMAGES_USE_EXT4 := true
 
 # SDClang
-TARGET_USE_SDCLANG := true
+TARGET_USE_SDCLANG := false
 
 # SELinux
 #include device/qcom/sepolicy/sepolicy.mk
